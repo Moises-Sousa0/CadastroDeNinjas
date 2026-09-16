@@ -1,2 +1,0 @@
-O que é tomcat?
-- Serve pra conectar o projeto com a WEB
