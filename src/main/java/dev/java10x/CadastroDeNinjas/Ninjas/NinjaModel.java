@@ -13,7 +13,6 @@ import java.util.List;
 @Entity
 @Table(name = "tb_cadastro")
 @NoArgsConstructor
-@AllArgsConstructor
 @Data
 public class NinjaModel {
 
@@ -30,4 +29,10 @@ public class NinjaModel {
     private MissoesModel missoes;
 
 
+    public NinjaModel(Long id, String email, String nome, int idade) {
+        this.id = id;
+        this.email = email;
+        this.nome = nome;
+        this.idade = idade;
+    }
 }
